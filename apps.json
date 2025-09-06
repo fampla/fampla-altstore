@@ -3,9 +3,9 @@
   "identifier": "com.fampla.altstore",
   "subtitle": "Self-Hosted Family Organization",
   "description": "Complete family organization platform with calendar, shopping lists, recipes, and todos. Self-hosted for complete privacy.",
-  "iconURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo.png",
-  "headerURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
-  "website": "https://github.com/fampla/fampla-app",
+  "iconURL": "https://raw.githubusercontent.com/fampla/fampla-altstore/main/mobile_app/assets/images/fampla_logo.png",
+  "headerURL": "https://raw.githubusercontent.com/fampla/fampla-altstore/main/mobile_app/assets/images/fampla_logo_1024.png",
+  "website": "https://github.com/fampla/fampla-altstore",
   "tintColor": "#0088ff",
   "featuredApps": [
     "com.fampla.app"
