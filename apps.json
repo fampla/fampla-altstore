@@ -17,7 +17,7 @@
       "developerName": "Fampla Team",
       "subtitle": "Family Organization Platform",
       "localizedDescription": "🐝 Complete self-hosted family organization platform\n\n✨ Features:\n• 📅 Smart Calendar with automatic ToDo generation\n• 🛒 Collaborative Shopping Lists with real-time sync\n• 📖 Recipe Management with ingredient selection\n• 📋 Intelligent ToDo System\n• 👥 Family Management with role-based access\n• 🔐 Secure authentication\n• 🏠 Real-time activity dashboard\n\n🔧 Self-Hosted:\n• Complete privacy with your own server\n• Docker deployment ready\n• No external dependencies\n• Username-based sharing system",
-      "iconURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo.png",
+      "iconURL": "https://raw.githubusercontent.com/fampla/fampla-altstore/main/mobile_app/assets/images/fampla_logo.png",
       "tintColor": "#0088ff",
       "category": "productivity",
       "screenshots": [
@@ -28,7 +28,7 @@
           "version": "1.2.0",
           "date": "2025-09-06",
           "localizedDescription": "🎉 CRITICAL LOGIN FIX\n\n✅ LOGIN NOW WORKS PERFECTLY!\n• Fixed major authentication bug that prevented users from logging in\n• Resolved CORS configuration issues with backend\n• Fixed double API prefix routing problems\n• All core features now fully functional\n\n🚀 Performance Improvements:\n• Smart Caching System reduces API requests by 90%\n• Enhanced shopping list synchronization\n• Improved recipe loading performance\n• Better error handling and user feedback\n\n🐛 Bug Fixes:\n• Authentication completely restored\n• Shopping list items sync properly\n• Recipe management fully working\n• Fixed network routing issues\n• Improved app stability\n\n🔧 Technical Updates:\n• Clean URL architecture (no hardcoded endpoints)\n• Proper CORS handling\n• Optimized provider state management\n• Enhanced debugging and logging\n\nThis update restores full functionality to Fampla!",
-          "downloadURL": "https://github.com/fampla/fampla-app/releases/download/v1.2.0/Fampla_v1.2.0_login_fix.ipa",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/releases/download/v1.2.0/Fampla_v1.2.0_login_fix.ipa",
           "size": 7812609,
           "minOSVersion": "12.0"
         },
@@ -36,7 +36,7 @@
           "version": "1.1.0",
           "date": "2025-09-06",
           "localizedDescription": "🚀 Major Performance Update\n\n• Smart Caching System reduces API requests by 90%\n• No more rate limiting issues with tab switching\n• Fixed recipe deletion functionality\n• Resolved image loading issues\n• Improved mobile performance\n• Enhanced Provider state management\n• Added emergency rate limit reset functionality\n• Fixed backend database operations",
-          "downloadURL": "https://github.com/fampla/fampla-app/releases/download/v1.1.0/Fampla_v1.1.0_fixed.ipa",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/releases/download/v1.1.0/Fampla_v1.1.0_fixed.ipa",
           "size": 7759872,
           "minOSVersion": "12.0"
         },
@@ -44,7 +44,7 @@
           "version": "1.0.0",
           "date": "2025-09-05",
           "localizedDescription": "🎯 Initial Release\n\n• Complete rebranding from FamilyHive to Fampla\n• Modern Glass Card UI design system\n• Enhanced username-based sharing\n• Production-ready Docker deployment\n• GitHub Container Registry integration\n• Smart calendar with ToDo generation\n• Collaborative shopping lists\n• Recipe management system\n• Family role management",
-          "downloadURL": "https://github.com/fampla/fampla-app/releases/download/v1.0.0/Fampla.ipa",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/releases/download/v1.0.0/Fampla.ipa",
           "size": 7811749,
           "minOSVersion": "13.0"
         }
@@ -81,7 +81,7 @@
       "tintColor": "#00c851",
       "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
       "notify": true,
-      "url": "https://github.com/fampla/fampla-app/releases/tag/v1.2.0"
+      "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.2.0"
     },
     {
       "title": "Fampla v1.1.0 - Performance Update!",
@@ -91,7 +91,7 @@
       "tintColor": "#0088ff",
       "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
       "notify": false,
-      "url": "https://github.com/fampla/fampla-app/releases/tag/v1.1.0"
+      "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.1.0"
     },
     {
       "title": "Fampla v1.0.0 Released!",
@@ -101,7 +101,7 @@
       "tintColor": "#0088ff",
       "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
       "notify": false,
-      "url": "https://github.com/fampla/fampla-app/releases/tag/v1.0.0"
+      "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.0.0"
     }
   ]
 }
