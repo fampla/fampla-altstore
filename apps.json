@@ -25,7 +25,7 @@
       ],
       "versions": [
         {
-          "version": "1.2.1",
+          "version": "1.2.0",
           "date": "2025-01-09",
           "localizedDescription": "🎯 Dashboard Improvements\n\n✅ Real Data Integration:\n• Fixed ManualTodo integration - no more property errors\n• Removed all static fake messages from dashboard\n• Dashboard now shows real todo data from your account\n• Added time-based greetings and icons (morning/evening)\n• Real-time todo counting and display\n• Shows actual upcoming tasks instead of placeholder text\n\n🔧 Technical Fixes:\n• Fixed assignedToUserId property usage\n• Fixed sharingType enum handling\n• Proper Consumer<ManualTodoProvider> integration\n• Improved dashboard data synchronization\n• Enhanced todo provider state management\n\n🚀 User Experience:\n• Dynamic greeting messages based on time of day\n• Real task counting and progress indicators\n• Authentic family activity overview\n• Better loading states and error handling",
           "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla-v1.2.1-dashboard-fixes.ipa",
@@ -74,8 +74,8 @@
   ],
   "news": [
     {
-      "title": "Fampla v1.2.1 - Dashboard Fixed! 🎯",
-      "identifier": "fampla-v1.2.1-dashboard",
+      "title": "Fampla v1.2.0 - Dashboard Fixed! 🎯",
+      "identifier": "fampla-v1.2.0-dashboard",
       "caption": "Real todo data integration - No more fake dashboard messages!",
       "date": "2025-01-09",
       "tintColor": "#0088ff",
