@@ -25,11 +25,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.1",
+          "version": "1.3.2",
           "date": "2025-01-15",
-          "localizedDescription": "📅 Recurring Calendar Events!\n\n🎯 New Features:\n• Recurring calendar events with flexible scheduling\n• Birthdays that repeat yearly automatically\n• Weekly activities with custom duration (e.g., 4-week swimming course)\n• Daily, weekly, monthly, and yearly recurrence options\n• German localization for recurrence descriptions\n• Smart end date and occurrence limit controls\n\n🔧 Technical Improvements:\n• Enhanced CalendarEvent model with recurrence fields\n• Database schema updates for recurring events\n• RecurrenceType enum with user-friendly descriptions\n• Utility methods for generating recurring instances\n• Parent-child relationship for event instances\n• Performance optimizations with proper indexing\n\n🚀 User Experience:\n• Intuitive recurrence setup in calendar\n• Clear descriptions like 'Wöchentlich (4 Mal)'\n• Automatic generation of recurring event instances\n• Better calendar organization for repeating events",
-          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla-v1.3.1-recurring-events.ipa",
-          "size": 15757195,
+          "localizedDescription": "📅 Recurring Calendar Events! (Cache Fix)\n\n🎯 New Features:\n• Recurring calendar events with flexible scheduling\n• Birthdays that repeat yearly automatically\n• Weekly activities with custom duration (e.g., 4-week swimming course)\n• Daily, weekly, monthly, and yearly recurrence options\n• German localization for recurrence descriptions\n• Smart end date and occurrence limit controls\n\n🔧 Technical Improvements:\n• Enhanced CalendarEvent model with recurrence fields\n• Database schema updates for recurring events\n• RecurrenceType enum with user-friendly descriptions\n• Utility methods for generating recurring instances\n• Parent-child relationship for event instances\n• Performance optimizations with proper indexing\n\n🚀 User Experience:\n• Intuitive recurrence setup in calendar\n• Clear descriptions like 'Wöchentlich (4 Mal)'\n• Automatic generation of recurring event instances\n• Better calendar organization for repeating events\n\n🔄 AltStore Fix:\n• Resolved version mismatch issues for seamless updates\n• Bypassed cache problems with new version increment",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla-v1.3.2-altstore-cache-fix.ipa",
+          "size": 7944750,
           "minOSVersion": "12.0"
         },
         {
@@ -82,14 +82,14 @@
   ],
   "news": [
     {
-      "title": "Fampla v1.3.1 - Recurring Calendar Events! 📅",
-      "identifier": "fampla-v1.3.1-recurring",
-      "caption": "Birthdays, swimming courses, and more - now with flexible recurring schedules!",
+      "title": "Fampla v1.3.2 - Recurring Events + AltStore Fix! 📅✅",
+      "identifier": "fampla-v1.3.2-cache-fix",
+      "caption": "Recurring calendar events now work perfectly with AltStore cache fix!",
       "date": "2025-01-15",
-      "tintColor": "#0088ff",
+      "tintColor": "#00c851",
       "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
       "notify": true,
-      "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.1"
+      "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.2"
     },
     {
       "title": "Fampla v1.2.1 - Dashboard Fixed! 🎯",
