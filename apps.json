@@ -29,7 +29,7 @@
           "date": "2025-01-15",
           "localizedDescription": "📅 Recurring Calendar Events!\n\n🎯 New Features:\n• Recurring calendar events with flexible scheduling\n• Birthdays that repeat yearly automatically\n• Weekly activities with custom duration (e.g., 4-week swimming course)\n• Daily, weekly, monthly, and yearly recurrence options\n• German localization for recurrence descriptions\n• Smart end date and occurrence limit controls\n\n🔧 Technical Improvements:\n• Enhanced CalendarEvent model with recurrence fields\n• Database schema updates for recurring events\n• RecurrenceType enum with user-friendly descriptions\n• Utility methods for generating recurring instances\n• Parent-child relationship for event instances\n• Performance optimizations with proper indexing\n\n🚀 User Experience:\n• Intuitive recurrence setup in calendar\n• Clear descriptions like 'Wöchentlich (4 Mal)'\n• Automatic generation of recurring event instances\n• Better calendar organization for repeating events",
           "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla-v1.3.1-recurring-events.ipa",
-          "size": 15700000,
+          "size": 15757195,
           "minOSVersion": "12.0"
         },
         {
