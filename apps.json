@@ -33,6 +33,22 @@
           "minOSVersion": "12.0"
         },
         {
+          "version": "1.3.3",
+          "date": "2025-09-07",
+          "localizedDescription": "🎯 Version 1.3.3 - AltStore Update Fix\n\n✅ Features from 1.3.2:\n• 🎨 Color coding for ToDos (same as Notes)\n• 🔄 Recurring event detection with auto-todo prevention\n• 📝 Real-time Notes display updates\n• 🐛 Fixed compilation errors\n\n📅 Recurring Calendar Events:\n• Recurring calendar events with flexible scheduling\n• Birthdays that repeat yearly automatically\n• Weekly activities with custom duration (e.g., 4-week swimming course)\n• Daily, weekly, monthly, and yearly recurrence options\n• German localization for recurrence descriptions\n• Smart end date and occurrence limit controls\n\n🔄 AltStore Compatibility:\n• Version increment to enable AltStore updates\n• Fixed update detection issues",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla-v1.3.3.ipa",
+          "size": 52183923,
+          "minOSVersion": "12.0"
+        },
+        {
+          "version": "1.3.2",
+          "date": "2025-01-15",
+          "localizedDescription": "🎯 Version 1.3.2 - Complete Feature Update\n\n✅ New Features:\n• 🎨 Color coding for ToDos (same as Notes)\n• 🔄 Recurring event detection with auto-todo prevention\n• 📝 Real-time Notes display updates\n• 🐛 Fixed compilation errors\n\n📅 Recurring Calendar Events:\n• Recurring calendar events with flexible scheduling\n• Birthdays that repeat yearly automatically\n• Weekly activities with custom duration (e.g., 4-week swimming course)\n• Daily, weekly, monthly, and yearly recurrence options\n• German localization for recurrence descriptions\n• Smart end date and occurrence limit controls\n\n🔧 Technical Improvements:\n• Enhanced CalendarEvent model with recurrence fields\n• Database schema updates for recurring events\n• RecurrenceType enum with user-friendly descriptions\n• Utility methods for generating recurring instances\n• Parent-child relationship for event instances\n• Performance optimizations with proper indexing\n\n🚀 User Experience:\n• Intuitive recurrence setup in calendar\n• Clear descriptions like 'Wöchentlich (4 Mal)'\n• Automatic generation of recurring event instances\n• Better calendar organization for repeating events",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla-v1.3.2-simulator.ipa",
+          "size": 52183923,
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.2.1",
           "date": "2025-01-09",
           "localizedDescription": "🎯 Dashboard Improvements\n\n✅ Real Data Integration:\n• Fixed ManualTodo integration - no more property errors\n• Removed all static fake messages from dashboard\n• Dashboard now shows real todo data from your account\n• Added time-based greetings and icons (morning/evening)\n• Real-time todo counting and display\n• Shows actual upcoming tasks instead of placeholder text\n\n🔧 Technical Fixes:\n• Fixed assignedToUserId property usage\n• Fixed sharingType enum handling\n• Proper Consumer<ManualTodoProvider> integration\n• Improved dashboard data synchronization\n• Enhanced todo provider state management\n\n🚀 User Experience:\n• Dynamic greeting messages based on time of day\n• Real task counting and progress indicators\n• Authentic family activity overview\n• Better loading states and error handling",
@@ -90,6 +106,16 @@
       "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
       "notify": true,
       "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.4"
+    },
+    {
+      "title": "Fampla v1.3.2 - Recurring Events + AltStore Fix! 📅✅",
+      "identifier": "fampla-v1.3.2-cache-fix",
+      "caption": "Recurring calendar events now work perfectly with AltStore cache fix!",
+      "date": "2025-01-15",
+      "tintColor": "#00c851",
+      "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
+      "notify": false,
+      "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.2"
     },
     {
       "title": "Fampla v1.2.1 - Dashboard Fixed! 🎯",
