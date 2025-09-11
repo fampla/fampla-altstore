@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "1.3.6",
+          "date": "2025-09-11",
+          "localizedDescription": "📝 Notes System Implementation\n\n✅ Complete Notes Features:\n• Create and edit personal and family notes\n• Tags system for organizing notes\n• Pin important notes to keep them at the top\n• Share notes with family members or keep them private\n• Color coding for visual organization (blue, green, yellow, red, purple)\n• Full-text search across all notes and tags\n• Filter by private/shared notes and specific tags\n• Real-time updates and synchronization\n\n🎨 Modern UI/UX:\n• Beautiful glass card design consistent with app theme\n• Dynamic text expansion during note creation\n• Intuitive sharing controls\n• Enhanced note detail view with metadata\n• Seamless integration with existing family system\n\n🔧 Technical Improvements:\n• Complete backend API integration\n• Robust offline support with local storage fallback\n• Proper error handling and user feedback\n• Performance optimizations for large note collections",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla_v1.3.6.ipa",
+          "size": 9189791,
+          "sha256": "ba09cb1016f41329eaefc1bf0749967654a9c0a619773fb4c1f58cd5e9869d7b",
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.3.5",
           "date": "2025-09-08",
           "localizedDescription": "📅 Calendar UI Improvements\n\n✅ Light Mode Fixes:\n• Fixed unreadable appointment text in light mode\n• All calendar text now properly adapts to light/dark themes\n• Improved calendar event visibility across all lighting conditions\n• Enhanced appointment time and title readability\n\n🗓️ Calendar Display Fixes:\n• Fixed incomplete calendar month display\n• Calendar now properly shows all days through month end\n• Increased calendar grid height for full 6-week view\n• Improved calendar day cell aspect ratio and layout\n\n🎨 UI/UX Improvements:\n• Better theme-responsive text colors throughout calendar\n• Enhanced calendar navigation and date selection\n• Improved glass card design consistency\n• Optimized calendar grid spacing and dimensions",
@@ -97,6 +106,16 @@
     }
   ],
   "news": [
+    {
+      "title": "Fampla v1.3.6 - Notes System Complete! 📝",
+      "identifier": "fampla-v1.3.6-notes",
+      "caption": "Full notes system with tags, sharing, and color coding!",
+      "date": "2025-09-11",
+      "tintColor": "#0088ff",
+      "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
+      "notify": true,
+      "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.6"
+    },
     {
       "title": "Fampla v1.3.5 - Calendar Fixed! 📅",
       "identifier": "fampla-v1.3.5-calendar",
