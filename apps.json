@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "1.3.7",
+          "date": "2025-09-12",
+          "localizedDescription": "🔄 Calendar Sync & Design Improvements\n\n✅ Calendar Sync Features:\n• Google Calendar sync with multi-account support\n• Apple Calendar integration for seamless workflow\n• Outlook Calendar sync for professional use\n• Select specific calendars to sync from each service\n• Toggle sync on/off for different calendar sources\n• Real-time sync status indicators\n\n🎨 Minimal Design Update:\n• Refined recipe import screen with subtle colors\n• Muted color palette for better visual consistency\n• Fixed calendar screen layout overflow issues\n• Enhanced minimal floating action buttons\n• Theme-responsive colors throughout the app\n• Professional glass card design system\n\n🔧 Technical Improvements:\n• Comprehensive calendar sync dialogs with StatefulBuilder\n• Multi-select functionality with visual feedback\n• Proper state management for sync preferences\n• Enhanced calendar provider architecture\n• Improved user feedback with SnackBars\n• Better error handling for sync operations",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla_v1.3.7.ipa",
+          "size": 9109504,
+          "sha256": "6aeabcb778a3d4f09bc03d14ed5f58f47e71f07137e9c515934f3aaae0108fba",
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.3.6",
           "date": "2025-09-11",
           "localizedDescription": "📝 Notes System Implementation\n\n✅ Complete Notes Features:\n• Create and edit personal and family notes\n• Tags system for organizing notes\n• Pin important notes to keep them at the top\n• Share notes with family members or keep them private\n• Color coding for visual organization (blue, green, yellow, red, purple)\n• Full-text search across all notes and tags\n• Filter by private/shared notes and specific tags\n• Real-time updates and synchronization\n\n🎨 Modern UI/UX:\n• Beautiful glass card design consistent with app theme\n• Dynamic text expansion during note creation\n• Intuitive sharing controls\n• Enhanced note detail view with metadata\n• Seamless integration with existing family system\n\n🔧 Technical Improvements:\n• Complete backend API integration\n• Robust offline support with local storage fallback\n• Proper error handling and user feedback\n• Performance optimizations for large note collections",
@@ -107,13 +116,23 @@
   ],
   "news": [
     {
+      "title": "Fampla v1.3.7 - Calendar Sync & Design Polish! 🔄",
+      "identifier": "fampla-v1.3.7-sync",
+      "caption": "Calendar sync with Google, Apple & Outlook plus refined minimal design!",
+      "date": "2025-09-12",
+      "tintColor": "#0088ff",
+      "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
+      "notify": true,
+      "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.7"
+    },
+    {
       "title": "Fampla v1.3.6 - Notes System Complete! 📝",
       "identifier": "fampla-v1.3.6-notes",
       "caption": "Full notes system with tags, sharing, and color coding!",
       "date": "2025-09-11",
       "tintColor": "#0088ff",
       "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
-      "notify": true,
+      "notify": false,
       "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.6"
     },
     {
