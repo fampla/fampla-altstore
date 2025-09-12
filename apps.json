@@ -116,9 +116,9 @@
   ],
   "news": [
     {
-      "title": "Fampla v1.3.7 - Calendar Sync & Design Polish! 🔄",
-      "identifier": "fampla-v1.3.7-sync",
-      "caption": "Calendar sync with Google, Apple & Outlook plus refined minimal design!",
+      "title": "Fampla v1.3.7 - Calendar Sync & Android Support! 🔄📱",
+      "identifier": "fampla-v1.3.7-multiplatform",
+      "caption": "Calendar sync features plus new Android APK release for dual platform support!",
       "date": "2025-09-12",
       "tintColor": "#0088ff",
       "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
