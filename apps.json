@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "1.3.8",
+          "date": "2025-09-12",
+          "localizedDescription": "📝 Notes Sync Fix - Critical Update\\n\\n✅ Fixed Notes Synchronization:\\n• Fixed notes not syncing between devices\\n• Now loads both personal and family notes simultaneously\\n• Intelligent duplicate prevention with Map-based merging\\n• Real-time auto-refresh every 15 seconds for live sync\\n• Proper error handling with graceful API fallbacks\\n• Timer-based lifecycle management for optimal performance\\n\\n🔄 Enhanced Notes Experience:\\n• Notes now appear instantly across all your devices\\n• Create notes on iPhone - see them on iPad within seconds\\n• Family notes stay synchronized across all family members\\n• Private notes remain secure while shared notes sync globally\\n• Filter functionality works seamlessly with merged dataset\\n\\n🔧 Technical Improvements:\\n• Comprehensive API endpoint integration (/notes/my + /notes)\\n• Map-based duplicate detection prevents data corruption\\n• Auto-refresh timer ensures real-time synchronization\\n• Enhanced provider state management for better performance\\n• Proper cleanup prevents memory leaks\\n\\n⚡ This update fixes the major sync issue where notes created on one device wouldn't appear on others. Now your notes stay perfectly synchronized across all devices!\",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla_v1.3.8.ipa",
+          "size": 9118770,
+          "sha256": "7c45cc84a48eaa3fc6b3be8674d87a8e22c4a02f7849b285746f706baa705698",
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.3.7",
           "date": "2025-09-12",
           "localizedDescription": "🔄 Calendar Sync & Design Improvements\n\n✅ Calendar Sync Features:\n• Google Calendar sync with multi-account support\n• Apple Calendar integration for seamless workflow\n• Outlook Calendar sync for professional use\n• Select specific calendars to sync from each service\n• Toggle sync on/off for different calendar sources\n• Real-time sync status indicators\n\n🎨 Minimal Design Update:\n• Refined recipe import screen with subtle colors\n• Muted color palette for better visual consistency\n• Fixed calendar screen layout overflow issues\n• Enhanced minimal floating action buttons\n• Theme-responsive colors throughout the app\n• Professional glass card design system\n\n🔧 Technical Improvements:\n• Comprehensive calendar sync dialogs with StatefulBuilder\n• Multi-select functionality with visual feedback\n• Proper state management for sync preferences\n• Enhanced calendar provider architecture\n• Improved user feedback with SnackBars\n• Better error handling for sync operations",
@@ -115,6 +124,16 @@
     }
   ],
   "news": [
+    {
+      "title": "Fampla v1.3.8 - Notes Sync FIXED! 📝✅",
+      "identifier": "fampla-v1.3.8-notes-sync",
+      "caption": "Critical fix: Notes now sync perfectly between all devices!",
+      "date": "2025-09-12",
+      "tintColor": "#00c851",
+      "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
+      "notify": true,
+      "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.8"
+    },
     {
       "title": "Fampla v1.3.7 - Calendar Sync & Android Support! 🔄📱",
       "identifier": "fampla-v1.3.7-multiplatform",
