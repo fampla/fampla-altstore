@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "1.3.10",
+          "date": "2025-10-03",
+          "localizedDescription": "🎨 Light Mode Readability Fixes\n\n✅ UI/UX Improvements:\n• Fixed white text on white background in light mode\n• All AppBar titles and icons now use theme-based colors\n• Template editor modal completely theme-adapted\n• Auto-todo dialogs modernized with proper light/dark mode support\n\n📋 Enhanced Todo Display:\n• Event-linked todos show prominent orange badge with event title\n• Fixed overflow in completed todos section\n• Improved visibility of todo metadata (date, category, priority)\n• Better contrast in both light and dark modes\n\n🔧 Technical Improvements:\n• Replaced all hardcoded Colors.white with theme colors\n• Consistent Glass Card design system maintained\n• Proper theme.colorScheme.onSurface usage throughout\n• Enhanced calendar edit screen theme support\n• Template manager screens fully theme-responsive",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla_v1.3.10.ipa",
+          "size": 9348580,
+          "sha256": "0bb8784945e0b652920abae83240aeda5404c842200496b7361bdca74cced927",
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.3.9",
           "date": "2025-10-03",
           "localizedDescription": "📖 Enhanced Recipe Ingredient Selection\n\n✅ New Features:\n• Select specific recipe ingredients with interactive checkboxes\n• Add selected ingredients directly to shopping lists\n• Modern circular checkbox design with smooth ripple effects\n• Smart rate limiting prevents API conflicts\n• Optimized performance with 200ms delay between requests\n\n🎨 UI/UX Improvements:\n• Rounded corners for better visual consistency\n• Professional Material Design interactions\n• Ingredient counter badge shows selected items\n• Seamless integration with existing shopping list system\n\n🔧 Technical Enhancements:\n• Fixed rate limiting issues when adding multiple ingredients\n• Improved state management for ingredient selection\n• Enhanced dialog workflow for shopping list selection\n• Better error handling with user-friendly feedback",
@@ -134,13 +143,23 @@
   ],
   "news": [
     {
+      "title": "Fampla v1.3.10 - Light Mode Fixed! 🎨✅",
+      "identifier": "fampla-v1.3.10-light-mode",
+      "caption": "White text on white background fixed - perfect readability in light mode!",
+      "date": "2025-10-03",
+      "tintColor": "#0088ff",
+      "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
+      "notify": true,
+      "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.10"
+    },
+    {
       "title": "Fampla v1.3.9 - Recipe Ingredient Selection! 📖✅",
       "identifier": "fampla-v1.3.9-recipe-ingredients",
       "caption": "Select and add recipe ingredients directly to shopping lists!",
       "date": "2025-10-03",
       "tintColor": "#0088ff",
       "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
-      "notify": true,
+      "notify": false,
       "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.9"
     },
     {
