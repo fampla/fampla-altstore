@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "1.3.9",
+          "date": "2025-10-03",
+          "localizedDescription": "📖 Enhanced Recipe Ingredient Selection\n\n✅ New Features:\n• Select specific recipe ingredients with interactive checkboxes\n• Add selected ingredients directly to shopping lists\n• Modern circular checkbox design with smooth ripple effects\n• Smart rate limiting prevents API conflicts\n• Optimized performance with 200ms delay between requests\n\n🎨 UI/UX Improvements:\n• Rounded corners for better visual consistency\n• Professional Material Design interactions\n• Ingredient counter badge shows selected items\n• Seamless integration with existing shopping list system\n\n🔧 Technical Enhancements:\n• Fixed rate limiting issues when adding multiple ingredients\n• Improved state management for ingredient selection\n• Enhanced dialog workflow for shopping list selection\n• Better error handling with user-friendly feedback",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla_v1.3.9.ipa",
+          "size": 9348580,
+          "sha256": "39f86a684eb2780dc2364897f1d1012ccf8164a7adfa22b5421bda1eb0a7b788",
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.3.8",
           "date": "2025-09-12",
           "localizedDescription": "Critical Notes Sync Fix - Fixed notes not syncing between devices. Now loads both personal and family notes simultaneously with real-time auto-refresh every 15 seconds. Notes appear instantly across all your devices and stay perfectly synchronized. Technical improvements include comprehensive API endpoint integration, duplicate detection, enhanced provider state management, and proper memory cleanup. This update fixes the major sync issue where notes created on one device would not appear on others.",
@@ -125,13 +134,23 @@
   ],
   "news": [
     {
+      "title": "Fampla v1.3.9 - Recipe Ingredient Selection! 📖✅",
+      "identifier": "fampla-v1.3.9-recipe-ingredients",
+      "caption": "Select and add recipe ingredients directly to shopping lists!",
+      "date": "2025-10-03",
+      "tintColor": "#0088ff",
+      "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
+      "notify": true,
+      "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.9"
+    },
+    {
       "title": "Fampla v1.3.8 - Notes Sync FIXED! 📝✅",
       "identifier": "fampla-v1.3.8-notes-sync",
       "caption": "Critical fix: Notes now sync perfectly between all devices!",
       "date": "2025-09-12",
       "tintColor": "#00c851",
       "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
-      "notify": true,
+      "notify": false,
       "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.8"
     },
     {
