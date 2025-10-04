@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "1.3.11",
+          "date": "2025-10-04",
+          "localizedDescription": "🌍 Complete Internationalization Support\n\n✨ New Features:\n• Complete German/English support for all 21 screens\n• 886 translations per language\n• Professional idiomatic translations (not literal)\n• Dynamic language switching via device settings\n\n🎨 Localization Improvements:\n• All user-facing text now fully localized\n• Parametrized translations for dynamic content\n• Context-appropriate translations for family app\n• Both navigation and content properly translated\n\n🔧 Technical Implementation:\n• Flutter i18n/l10n system fully integrated\n• ARB files for English (app_en.arb) and German (app_de.arb)\n• AppLocalizations generated from ARB files\n• Optimized build performance with tree-shaking\n\n📱 User Experience:\n• Seamless language switching\n• Consistent translations across entire app\n• Professional quality German and English text\n• Ready for additional language support",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/fampla-v1.3.11.ipa",
+          "size": 9634425,
+          "sha256": "bdef0f3687a24563b49eb20f69c958bacec81460f97d200997319bf58a36f86f",
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.3.10",
           "date": "2025-10-03",
           "localizedDescription": "🎨 Light Mode Readability Fixes\n\n✅ UI/UX Improvements:\n• Fixed white text on white background in light mode\n• All AppBar titles and icons now use theme-based colors\n• Template editor modal completely theme-adapted\n• Auto-todo dialogs modernized with proper light/dark mode support\n\n📋 Enhanced Todo Display:\n• Event-linked todos show prominent orange badge with event title\n• Fixed overflow in completed todos section\n• Improved visibility of todo metadata (date, category, priority)\n• Better contrast in both light and dark modes\n\n🔧 Technical Improvements:\n• Replaced all hardcoded Colors.white with theme colors\n• Consistent Glass Card design system maintained\n• Proper theme.colorScheme.onSurface usage throughout\n• Enhanced calendar edit screen theme support\n• Template manager screens fully theme-responsive",
@@ -143,13 +152,23 @@
   ],
   "news": [
     {
+      "title": "Fampla v1.3.11 - Full i18n Support! 🌍✨",
+      "identifier": "fampla-v1.3.11-i18n",
+      "caption": "Complete German/English support with 886 professional translations!",
+      "date": "2025-10-04",
+      "tintColor": "#00c851",
+      "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
+      "notify": true,
+      "url": "https://github.com/fampla/fampla-app/releases/tag/v1.3.11"
+    },
+    {
       "title": "Fampla v1.3.10 - Light Mode Fixed! 🎨✅",
       "identifier": "fampla-v1.3.10-light-mode",
       "caption": "White text on white background fixed - perfect readability in light mode!",
       "date": "2025-10-03",
       "tintColor": "#0088ff",
       "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
-      "notify": true,
+      "notify": false,
       "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.10"
     },
     {
