@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "1.3.15",
+          "date": "2025-10-08",
+          "localizedDescription": "🔄 Calendar Sync Fix & Debug Logging\n\n✅ Calendar Sync Improvements:\n• Fixed calendar sync to use default calendar instead of non-existent 'imported' calendar\n• Synced events now appear correctly in your Fampla calendar\n• Added comprehensive debug logging for troubleshooting\n• Import from iOS Calendar: ✅ Working\n• Export to iOS Calendar: ✅ Working\n\n🔧 Technical Improvements:\n• Improved type safety with device_calendar package\n• Fixed namespace conflicts between Fampla Calendar and iOS Calendar\n• Events automatically assigned to default or first available calendar\n• Detailed sync status messages in debug console\n\n📱 User Experience:\n• Calendar sync now displays all imported events\n• Clear sync success/failure messages\n• Better calendar selection UI\n• Improved error handling\n\nBitte in der Kalender-Verwaltung einen iOS-Kalender auswählen und 'Jetzt synchronisieren' klicken!",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla_v1.3.15.ipa",
+          "size": 10297073,
+          "sha256": "21445a9a87b1ac818851d70183ce974916294931a8fc986c6df465b632a4a74b",
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.3.14",
           "date": "2025-10-08",
           "localizedDescription": "🎨 Sidebar Improvements & Navigation Fixes\n\n✅ Sidebar Enhancements:\n• Fixed sidebar overflow issues - now properly scrollable\n• Shopping sidebar now displays correctly on all screen sizes\n• All navigation buttons now work correctly\n• Calendar settings navigation fixed (/calendar/management)\n\n🔧 Technical Improvements:\n• Made shopping sidebar scrollable with SingleChildScrollView\n• Fixed ListView sizing with shrinkWrap in sidebars\n• Corrected navigation routes to match app router structure\n• Removed non-functional navigation buttons\n• Enhanced sidebar responsiveness\n\n📱 User Experience:\n• Sidebars adapt perfectly to all screen heights\n• No more buffer overflow when opening sidebars\n• Smooth scrolling in all sidebar views\n• Settings and management screens now accessible\n• Better visual consistency across the app",
@@ -170,6 +179,14 @@
   ],
   "news": [
     {
+      "title": "Fampla v1.3.15 - Calendar Sync Fix",
+      "identifier": "fampla-1.3.15-calendar-sync-fix",
+      "caption": "Fixed calendar sync to properly display imported events",
+      "date": "2025-10-08",
+      "tintColor": "0088ff",
+      "notify": false
+    },
+    {
       "title": "Fampla v1.3.14 - Sidebar Fixes! 🎨✅",
       "identifier": "fampla-v1.3.14-sidebars",
       "caption": "Sidebars now scroll properly and all navigation works perfectly!",
@@ -301,7 +318,7 @@
     },
     {
       "title": "Fampla v1.0.0 Released!",
-      "identifier": "fampla-v1.0.0", 
+      "identifier": "fampla-v1.0.0",
       "caption": "Complete self-hosted family organization platform",
       "date": "2025-09-05",
       "tintColor": "#0088ff",
