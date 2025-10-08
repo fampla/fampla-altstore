@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "1.3.14",
+          "date": "2025-10-08",
+          "localizedDescription": "🎨 Sidebar Improvements & Navigation Fixes\n\n✅ Sidebar Enhancements:\n• Fixed sidebar overflow issues - now properly scrollable\n• Shopping sidebar now displays correctly on all screen sizes\n• All navigation buttons now work correctly\n• Calendar settings navigation fixed (/calendar/management)\n\n🔧 Technical Improvements:\n• Made shopping sidebar scrollable with SingleChildScrollView\n• Fixed ListView sizing with shrinkWrap in sidebars\n• Corrected navigation routes to match app router structure\n• Removed non-functional navigation buttons\n• Enhanced sidebar responsiveness\n\n📱 User Experience:\n• Sidebars adapt perfectly to all screen heights\n• No more buffer overflow when opening sidebars\n• Smooth scrolling in all sidebar views\n• Settings and management screens now accessible\n• Better visual consistency across the app",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla_v1.3.14.ipa",
+          "size": 10294014,
+          "sha256": "3b86aa6255b61dd1505e3934e65be4ae03594071c2f861daec60b0849829a5aa",
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.3.12",
           "date": "2025-10-07",
           "localizedDescription": "🎨 UI Improvements & Design Fixes\n\n✅ UI/UX Enhancements:\n• Reverted liquid glass design for better visibility\n• Fixed calendar management navigation\n• Improved Material Design 3 card consistency\n• Simplified calendar management UI\n\n🗓️ Calendar Improvements:\n• Removed complex calendar visibility toggles\n• Unified calendar management screen\n• Better navigation flow in calendar settings\n• Enhanced glass card design throughout app\n\n🔧 Technical Changes:\n• Clean Material Design 3 implementation\n• Optimized calendar provider state management\n• Removed unnecessary UI complexity\n• Better theme integration across all screens",
@@ -160,6 +169,16 @@
     }
   ],
   "news": [
+    {
+      "title": "Fampla v1.3.14 - Sidebar Fixes! 🎨✅",
+      "identifier": "fampla-v1.3.14-sidebars",
+      "caption": "Sidebars now scroll properly and all navigation works perfectly!",
+      "date": "2025-10-08",
+      "tintColor": "#0088ff",
+      "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
+      "notify": false,
+      "url": "https://github.com/fampla/fampla-app/releases/tag/v1.3.14"
+    },
     {
       "title": "Fampla v1.3.12 - UI Improvements! 🎨✨",
       "identifier": "fampla-v1.3.12-ui",
