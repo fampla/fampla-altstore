@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "1.3.16",
+          "date": "2025-10-09",
+          "localizedDescription": "📝 Enhanced Markdown Editor & UI Fixes\n\n✅ Markdown Editor Improvements:\n• Auto-completion for markdown lists - Press Enter to continue lists automatically\n• Interactive checkboxes in rendered markdown - Click checkboxes to toggle [ ] ↔ [x]\n• Supports unordered lists (-, *), ordered lists (1., 2.), and task lists (- [ ], - [x])\n• Smart list detection with proper indentation handling\n• Checkboxes work in both note detail view and preview cards\n\n🎨 UI/UX Improvements:\n• Fixed UI overflow issues in notes screens\n• Scrollable content prevents layout errors\n• Enhanced markdown preview with GitHub-flavored syntax\n• Real-time checkbox updates without manual editing\n• Better note creation and editing experience\n\n🔧 Technical Enhancements:\n• RegExp pattern matching for intelligent list auto-completion\n• GestureDetector-based interactive checkbox rendering\n• Proper state management for checkbox toggling\n• flutter_markdown with checkboxBuilder support\n• Enhanced TextEditingController with onChanged callbacks",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla_v1.3.16.ipa",
+          "size": 10288897,
+          "sha256": "22ecd107e228b636e61cacfaf7cd31c60456e8ffb9a471454453760bb6b158d4",
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.3.15",
           "date": "2025-10-08",
           "localizedDescription": "🔄 Calendar Sync Fix & Debug Logging\n\n✅ Calendar Sync Improvements:\n• Fixed calendar sync to use default calendar instead of non-existent 'imported' calendar\n• Synced events now appear correctly in your Fampla calendar\n• Added comprehensive debug logging for troubleshooting\n• Import from iOS Calendar: ✅ Working\n• Export to iOS Calendar: ✅ Working\n\n🔧 Technical Improvements:\n• Improved type safety with device_calendar package\n• Fixed namespace conflicts between Fampla Calendar and iOS Calendar\n• Events automatically assigned to default or first available calendar\n• Detailed sync status messages in debug console\n\n📱 User Experience:\n• Calendar sync now displays all imported events\n• Clear sync success/failure messages\n• Better calendar selection UI\n• Improved error handling\n\nBitte in der Kalender-Verwaltung einen iOS-Kalender auswählen und 'Jetzt synchronisieren' klicken!",
@@ -178,6 +187,16 @@
     }
   ],
   "news": [
+    {
+      "title": "Fampla v1.3.16 - Markdown Editor Enhanced! 📝✨",
+      "identifier": "fampla-v1.3.16-markdown-editor",
+      "caption": "Auto-completion for lists & interactive checkboxes in notes!",
+      "date": "2025-10-09",
+      "tintColor": "#0088ff",
+      "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
+      "notify": true,
+      "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.16"
+    },
     {
       "title": "Fampla v1.3.15 - Calendar Sync Fix",
       "identifier": "fampla-1.3.15-calendar-sync-fix",
