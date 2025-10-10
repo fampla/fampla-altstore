@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "1.3.17",
+          "date": "2025-10-10",
+          "localizedDescription": "🔄 Intelligent Conflict Resolution for Offline Edits\n\n✅ Major Sync Improvements:\n• Offline edits are now protected from being overwritten by older backend data\n• Last-Write-Wins strategy based on timestamps ensures newest changes prevail\n• Smart conflict resolution across Notes, Todos, Calendar, Shopping Lists, and Recipes\n• Local-only items automatically queued for backend synchronization\n\n🛡️ Data Protection:\n• Notes: Compare updatedAt timestamps, preserve newer local changes\n• Todos: Compare completedAt/createdAt, preserve local completion status\n• Calendar: Preserve local completion status and local-only events\n• Shopping Lists: Preserve local-only lists and items\n• Recipes: Compare updatedAt timestamps, preserve newer local changes\n\n🔧 Technical Enhancements:\n• Implemented conflict resolution in all major providers (400+ lines)\n• Debug logging for conflict detection and resolution\n• Automatic sync queue integration for local changes\n• Backend-authoritative when timestamps equal or missing\n• Enhanced offline-first architecture\n\n📱 User Experience:\n• No more lost offline edits when going back online\n• Seamless synchronization across all devices\n• Automatic conflict detection and resolution\n• Better data integrity and consistency",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla_v1.3.17.ipa",
+          "size": 10378240,
+          "sha256": "d2dc5c99478adbb25c1af068941590f3ba22b6476c06c769cb264ee7f6ae45ee",
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.3.16",
           "date": "2025-10-09",
           "localizedDescription": "📝 Enhanced Markdown Editor & UI Fixes\n\n✅ Markdown Editor Improvements:\n• Auto-completion for markdown lists - Press Enter to continue lists automatically\n• Interactive checkboxes in rendered markdown - Click checkboxes to toggle [ ] ↔ [x]\n• Supports unordered lists (-, *), ordered lists (1., 2.), and task lists (- [ ], - [x])\n• Smart list detection with proper indentation handling\n• Checkboxes work in both note detail view and preview cards\n\n🎨 UI/UX Improvements:\n• Fixed UI overflow issues in notes screens\n• Scrollable content prevents layout errors\n• Enhanced markdown preview with GitHub-flavored syntax\n• Real-time checkbox updates without manual editing\n• Better note creation and editing experience\n\n🔧 Technical Enhancements:\n• RegExp pattern matching for intelligent list auto-completion\n• GestureDetector-based interactive checkbox rendering\n• Proper state management for checkbox toggling\n• flutter_markdown with checkboxBuilder support\n• Enhanced TextEditingController with onChanged callbacks",
@@ -188,13 +197,23 @@
   ],
   "news": [
     {
+      "title": "Fampla v1.3.17 - Conflict Resolution! 🔄🛡️",
+      "identifier": "fampla-v1.3.17-conflict-resolution",
+      "caption": "Offline edits are now protected from being overwritten!",
+      "date": "2025-10-10",
+      "tintColor": "#00c851",
+      "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
+      "notify": true,
+      "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.17"
+    },
+    {
       "title": "Fampla v1.3.16 - Markdown Editor Enhanced! 📝✨",
       "identifier": "fampla-v1.3.16-markdown-editor",
       "caption": "Auto-completion for lists & interactive checkboxes in notes!",
       "date": "2025-10-09",
       "tintColor": "#0088ff",
       "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
-      "notify": true,
+      "notify": false,
       "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.16"
     },
     {
