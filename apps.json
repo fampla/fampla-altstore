@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "1.3.21",
+          "date": "2025-10-12",
+          "localizedDescription": "📸 Shopping Item Photos - Visual Shopping Lists\n\n✨ NEW FEATURE - Item Photos:\n• 📷 Take photos of shopping items with camera\n• 🖼️ Select photos from gallery\n• 👁️ View full-size photos in item details dialog\n• 🔍 Photo thumbnails in shopping list view\n• 🗑️ Remove photos if needed\n\n🛒 ENHANCED SHOPPING EXPERIENCE:\n• Item detail dialog with photo preview\n• Photo management: Camera, Gallery, Remove\n• Automatic image compression (1024x1024, 85% quality)\n• Base64 storage for reliable sync\n• Visual identification of products (e.g., which detergent brand)\n\n🎨 UI/UX IMPROVEMENTS:\n• 40x40 photo thumbnails in item list\n• Full-size photo preview in detail dialog\n• Tap any item to open detail dialog\n• Clean photo placeholder when no photo\n• Success feedback with SnackBars\n\n🔧 TECHNICAL IMPLEMENTATION:\n• Backend: image_base64 column in shopping_items table\n• Frontend: ImagePicker integration with camera/gallery\n• Automatic image resizing and quality optimization\n• Provider-based state management for photos\n• Real-time UI updates after photo changes\n\n📱 PRACTICAL USE CASES:\n• 🧴 Photo of specific detergent brand\n• 🍷 Wine bottle label for exact product\n• 📦 Package design to remember specific variant\n• 🥫 Product photo from recipe for reference\n• 🛍️ Visual shopping assistance in store",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla_v1.3.21.ipa",
+          "size": 10378240,
+          "sha256": "9170f20d1afc7da38c78601df700319ef8f6e5a3111d3197348cbd6412ab3d62",
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.3.20",
           "date": "2025-10-11",
           "localizedDescription": "🔄 Offline-First Improvements - Login & Sync Fixes\n\n✅ LOGIN PERSISTENCE FIXED:\n• Login bleibt jetzt bei Netzwechsel erhalten (WiFi→LTE)\n• Optimistische Authentifizierung mit cached Daten\n• Token-Validierung mit 3 Retry-Versuchen (1s, 2s, 4s backoff)\n• Background-Validierung blockiert UI nicht mehr\n• Logout nur bei explizitem 401, nicht bei Netzwerk-Timeout\n\n🔄 SYNC AFTER OFFLINE FIXED:\n• Notizen synchronisieren automatisch nach Offline-Phase\n• Force-Refresh vom API bei Netzwerk-Wiederherstellung\n• Sync Service ruft jetzt echte API-Daten ab\n• Conflict Resolution (Last-Write-Wins) funktioniert weiterhin\n\n🛒 SHOPPING LIST UX IMPROVED:\n• Keine Fehler-Messages mehr bei normalem Offline-Betrieb\n• Neue Status-Anzeige: '📴 Offline-Modus - Änderungen werden später synchronisiert'\n• Status-Messages: '🔄 Synchronisiere X Änderungen...' oder '✓ Synchronisiert'\n• Deutsche Fehlermeldungen für bessere UX\n• Funktioniert perfekt offline im Laden\n\n🔧 TECHNICAL IMPROVEMENTS:\n• Auth Provider: Robuste Token-Validierung mit Retry-Logic\n• Sync Service: Force-Refresh Parameter für Callbacks\n• Notes Provider: Echte API-Sync bei Reconnect\n• Shopping Provider: Status-Getter für UI-Feedback\n• Recipe/Calendar/Todo Provider: Callback-Signatur angepasst\n\n📱 USER EXPERIENCE:\n• Login überlebt Netzwechsel zuverlässig\n• Notizen synchen automatisch nach Offline\n• Einkaufsliste funktioniert offline mit klarem Feedback\n• Keine verwirrenden Fehler mehr",
@@ -224,13 +233,23 @@
   ],
   "news": [
     {
+      "title": "Fampla v1.3.21 - Shopping Item Photos! 📸🛒",
+      "identifier": "fampla-v1.3.21-shopping-photos",
+      "caption": "Take photos of shopping items for visual identification!",
+      "date": "2025-10-12",
+      "tintColor": "#0088ff",
+      "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
+      "notify": true,
+      "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.21"
+    },
+    {
       "title": "Fampla v1.3.17 - Conflict Resolution! 🔄🛡️",
       "identifier": "fampla-v1.3.17-conflict-resolution",
       "caption": "Offline edits are now protected from being overwritten!",
       "date": "2025-10-10",
       "tintColor": "#00c851",
       "imageURL": "https://raw.githubusercontent.com/fampla/fampla-app/main/mobile_app/assets/images/fampla_logo_1024.png",
-      "notify": true,
+      "notify": false,
       "url": "https://github.com/fampla/fampla-altstore/releases/tag/v1.3.17"
     },
     {
