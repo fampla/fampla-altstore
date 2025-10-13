@@ -29,8 +29,8 @@
           "date": "2025-10-13",
           "localizedDescription": "📅 Calendar Sync Fixed - Events Update Immediately\n\n✅ CALENDAR SYNCHRONIZATION FIXED:\n• Calendar events now sync immediately to native iOS calendar\n• Persistent sync settings stored in SharedPreferences\n• Manual sync button with progress feedback\n• Auto-sync toggle per calendar for automatic updates\n• Sync status: \"Synchronisiere...\" with spinner during sync\n• Sync completion: \"✓ Synchronisiert\" with checkmark\n\n🔄 SYNC FEATURES:\n• One-time manual sync: Tap \"Jetzt synchronisieren\"\n• Auto-sync: Toggle switch to enable automatic sync\n• Progress dialog shows detailed sync feedback\n• Event count displayed: \"X Ereignisse synchronisiert\"\n• Calendar selection with iOS calendar picker\n• Sync settings persist across app restarts\n\n🎨 UX IMPROVEMENTS:\n• Clear sync status indicators in calendar management\n• Interactive sync buttons with loading states\n• Success/Error feedback with SnackBars\n• Calendar name and color displayed prominently\n• Smooth animations during sync operations\n\n🔧 TECHNICAL FIXES:\n• CalendarSyncSettingsScreen with persistent storage\n• device_calendar package integration\n• Provider-based state management for sync settings\n• Proper iOS calendar permissions handling\n• Real-time UI updates during sync\n\n📱 USER BENEFIT:\n• Fampla calendar events appear in iOS Calendar app\n• Two-way sync keeps calendars in perfect sync\n• Manual control: Sync when you want\n• Automatic sync: Set it and forget it\n• Works seamlessly with other calendar apps",
           "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla_v1.3.23.ipa",
-          "size": 11534336,
-          "sha256": "c3b9475b2512ca136db80caa0962828495a651039a61e3be9c9c23663fb13663",
+          "size": 10378240,
+          "sha256": "6787f0f5579dc6d4008e1c4af18d2f11e29d27d195eadbc91ca5151d9e969093",
           "minOSVersion": "12.0"
         },
         {
