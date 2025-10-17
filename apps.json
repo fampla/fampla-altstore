@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "1.3.27",
+          "date": "2025-10-17",
+          "localizedDescription": "🛒 Shopping List Cache Sync Fix\n\n✅ CRITICAL FIX - SHOPPING LIST ITEMS:\n• Fixed shopping lists showing 0 items despite items existing in cache\n• Items now automatically loaded from cache during online sync\n• Shopping lists display all cached items immediately on load\n• Consistent behavior between online and offline item loading\n\n🔧 TECHNICAL IMPROVEMENTS:\n• Enhanced _mergeShoppingListsWithConflictResolution() method\n• Automatic cache loading when items not in memory\n• Debug logging for cache item loading\n• Better synchronization between cache and memory state\n\n📱 USER BENEFIT:\n• Shopping lists now show all items immediately\n• No more empty lists with items hidden in cache\n• Better offline/online transition handling\n• More reliable shopping list experience",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla_v1.3.27.ipa",
+          "size": 10437623,
+          "sha256": "656ef5fbee3a818f2382480e0012f021c6f13d3a3a962f28cdb2944cc8e757e2",
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.3.26",
           "date": "2025-10-17",
           "localizedDescription": "🎨 Todo Card Layout Improvements - Unified Design\n\n✅ UNIFIED TODO CARD DESIGN:\n• All todo card types now use consistent layout structure\n• Todo titles get full horizontal space without compression\n• Priority badges moved to right side and made more compact\n• Checkbox + Title + Badge layout prevents text wrapping issues\n• Title supports up to 2 lines with ellipsis overflow\n\n📋 IMPROVED TODO CARDS:\n• Manual/Personal Todos: Clean layout with better spacing\n• Calendar Todos: Auto-gen badge + compact priority indicator\n• Family Todos: Claim/Unclaim actions properly indented\n• Completed Todos: Restore/Delete buttons in separate row\n\n✨ SIDEBAR IMPROVEMENTS:\n• Todo counts displayed next to categories (e.g., \"Verfügbar (52)\")\n• Compact count badges with theme-responsive colors\n• Better visual feedback for active filters\n• Consistent badge styling across all todo types\n\n🔧 TECHNICAL IMPROVEMENTS:\n• Replaced ListTile with custom Column/Row layout\n• Title uses Expanded widget for maximum horizontal space\n• Compact badge design (fontSize: 10, minimal padding)\n• All subtitle content properly indented below title\n• Consistent 56px left padding for subtitle content\n\n📱 USER BENEFIT:\n• Todo titles display properly without weird line breaks\n• Better readability with consistent card layouts\n• Clear visual hierarchy in todo lists\n• More professional and polished UI\n• Easier to scan and organize todos",
