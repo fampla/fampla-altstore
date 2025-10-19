@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "1.3.31",
+          "date": "2025-10-19",
+          "localizedDescription": "🏗️ Architecture Improvements + Unique Family Invite Codes\n\n✨ NEW FEATURES:\n• Structured family invite codes (Format: 123-abc)\n• Better sync architecture with unified adapters\n• Improved code organization for better maintainability\n\n👨‍👩‍👧‍👦 FAMILY INVITE SYSTEM IMPROVED:\n• Unique invite codes prevent confusion between families\n• Format: 3 digits + hyphen + 3 letters (e.g., '482-xyz')\n• No more conflicts when multiple families have same name\n• Member sharing within family stays username-based\n• Collision-free code generation with automatic retries\n\n🔧 SYNC ARCHITECTURE REFACTORED:\n• Introduced reusable sync adapter pattern\n• CalendarSyncAdapter, NotesSyncAdapter, RecipeSyncAdapter, TodoSyncAdapter\n• Cleaner separation of concerns\n• Documented conflict resolution strategy\n• Providers no longer lazy-loaded for better sync registration\n• Better code maintainability and testability\n\n📋 TECHNICAL IMPROVEMENTS:\n• Sync adapters follow consistent interface pattern\n• Conflict resolution documentation in codebase\n• Improved provider initialization\n• Better code structure for future enhancements\n• Backend: Idempotent invite code generation\n\n📱 USER BENEFIT:\n• Family joining more reliable (unique codes)\n• Internal member sharing still simple (username-based)\n• More stable sync behavior\n• Foundation for future sync improvements\n• No user-facing changes in UX",
+          "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla_v1.3.31.ipa",
+          "size": 10431854,
+          "sha256": "304b694808430407370a033655cfb5e603f3f6da6c3085df8a021b4697987afc",
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.3.30",
           "date": "2025-10-18",
           "localizedDescription": "🔐 Proper Refresh Token Implementation - No More Constant Re-Login!\n\n✅ AUTHENTICATION IMPROVEMENTS:\n• Users now stay logged in for 1 year (refresh token lifetime)\n• No more forced logout after 1 hour\n• Automatic token refresh using secure refresh tokens\n• Better UX matching other self-hosted apps\n• Only logout on actual authentication failures\n\n🔄 HOW IT WORKS:\n• Short-lived access tokens (1 hour) for API requests\n• Long-lived refresh tokens (1 year) securely stored\n• Automatic background token renewal\n• Seamless authentication without user intervention\n• Enhanced security with token rotation\n\n🔧 TECHNICAL DETAILS:\n• Backend: Refresh token table with 1-year expiry\n• Frontend: AuthProvider with automatic refresh logic\n• Removed aggressive logout on token expiry\n• Enhanced 401 error handling with refresh attempt\n• Secure token storage with flutter_secure_storage\n\n📱 USER BENEFIT:\n• Login once → stay logged in for 1 year\n• No more annoying re-login prompts\n• Better user experience like Emby, Bring, etc.\n• Only re-login when truly necessary\n• Seamless authentication across all devices",
