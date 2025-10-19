@@ -29,8 +29,8 @@
           "date": "2025-10-19",
           "localizedDescription": "🏗️ Architecture Improvements + Unique Family Invite Codes\n\n✨ NEW FEATURES:\n• Structured family invite codes (Format: 123-abc)\n• Better sync architecture with unified adapters\n• Improved code organization for better maintainability\n\n👨‍👩‍👧‍👦 FAMILY INVITE SYSTEM IMPROVED:\n• Unique invite codes prevent confusion between families\n• Format: 3 digits + hyphen + 3 letters (e.g., '482-xyz')\n• No more conflicts when multiple families have same name\n• Member sharing within family stays username-based\n• Collision-free code generation with automatic retries\n\n🔧 SYNC ARCHITECTURE REFACTORED:\n• Introduced reusable sync adapter pattern\n• CalendarSyncAdapter, NotesSyncAdapter, RecipeSyncAdapter, TodoSyncAdapter\n• Cleaner separation of concerns\n• Documented conflict resolution strategy\n• Providers no longer lazy-loaded for better sync registration\n• Better code maintainability and testability\n\n📋 TECHNICAL IMPROVEMENTS:\n• Sync adapters follow consistent interface pattern\n• Conflict resolution documentation in codebase\n• Improved provider initialization\n• Better code structure for future enhancements\n• Backend: Idempotent invite code generation\n\n📱 USER BENEFIT:\n• Family joining more reliable (unique codes)\n• Internal member sharing still simple (username-based)\n• More stable sync behavior\n• Foundation for future sync improvements\n• No user-facing changes in UX",
           "downloadURL": "https://github.com/fampla/fampla-altstore/raw/main/Fampla_v1.3.31.ipa",
-          "size": 10436772,
-          "sha256": "796a9a02713475eae2adca69867f9ba97a66d9e66995a98e713a9e3da5838192",
+          "size": 10436767,
+          "sha256": "4f3b474c90cff79d8c30fe4658017e6bc6882de8e1831dd878aaa0dadd0d0565",
           "minOSVersion": "12.0"
         },
         {
