@@ -14,7 +14,7 @@
     {
       "name": "Fampla",
       "bundleIdentifier": "com.fampla.app",
-      "developerName": "Fampla Team",
+      "developerName": "Fampla",
       "subtitle": "Family Organization Platform",
       "localizedDescription": "🐝 Complete self-hosted family organization platform\n\n✨ Features:\n• 📅 Smart Calendar with automatic ToDo generation\n• 🛒 Collaborative Shopping Lists with real-time sync\n• 📖 Recipe Management with ingredient selection\n• 📋 Intelligent ToDo System\n• 👥 Family Management with role-based access\n• 🔐 Secure authentication\n• 🏠 Real-time activity dashboard\n\n🔧 Self-Hosted:\n• Complete privacy with your own server\n• Docker deployment ready\n• No external dependencies\n• Username-based sharing system",
       "iconURL": "https://raw.githubusercontent.com/fampla/fampla-altstore/main/mobile_app/assets/images/fampla_logo.png",
